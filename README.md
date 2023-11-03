@@ -7,5 +7,5 @@
 - Obtain the `OpenAI API key` in advance.
 - After cloning the repository, create a `.env` file and write `OPENAI_API_KEY=skxxxxxxxxxxxxxxxxxx(OpenAI API key)` in it, then save it in the home directory.
 - Start it with `docker compose up`.
-- Access the app in your browser at `localhost:8051`.
+- Access the app in your browser at `localhost:8501`.
 
