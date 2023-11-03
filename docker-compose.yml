@@ -1,0 +1,18 @@
+version: '3'
+services:
+  
+  streamlit:
+    restart: on-failure
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: streamlit_chat
+    working_dir: '/src'
+    tty: true
+    volumes: 
+      - ./src:/src
+    env_file:
+      - ./.env
+    ports: 
+      - '8501:8501'
+    command: streamlit run streamchat.py
