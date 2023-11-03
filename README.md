@@ -9,3 +9,4 @@
 - Start it with `docker compose up`.
 - Access the app in your browser at `localhost:8501`.
 
+<img src = "ScreenShot.png">
